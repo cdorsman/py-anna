@@ -1,0 +1,42 @@
+{
+    "gui": {
+        "type": "menu",
+        "menu_name": "test_menu",
+        "fast_path": "test_menu",
+        "active": "true",
+        "expl_text": "Press UP and DOWN keys to select desired item and press ENTER",
+        "menu": {
+            "menu_items": [
+                {
+                    "item_name": "item0",
+                    "item_text": "This a item"
+                },
+                {
+                    "item_name": "item1",
+                    "item_text": "This a second item",
+                    "display": "test_form"
+                }
+            ],
+            "info": {
+                "info_items": [
+                    {
+                        "item_name": "F1",
+                        "item_text": "F1=Info"
+                    },
+                    {
+                        "item_name": "F2",
+                        "item_text": "F2=Refresh"
+                    },
+                    {
+                        "item_name": "F3",
+                        "item_text": "F3=Cancel"
+                    },
+                    {
+                        "item_name": "F9",
+                        "item_text": "F9=Exit"
+                    }
+                ]
+            }
+        }
+    }
+}
