@@ -1,0 +1,96 @@
+{
+    "gui": {
+        "type": "form",
+        "form_name": "test_form",
+        "menu_name": "test_menu",
+        "expl_text": "Press UP and DOWN keys to select desired item and press ENTER",
+        "form": {
+            "form_items": [
+                {
+                    "item_name": "item0",
+                    "item_text": "This a item",
+                    "default": "",
+                    "required": false,
+                    "var_name": "item_one"
+                },
+                {
+                    "item_name": "item1",
+                    "item_text": "This a second item",
+                    "default": 0,
+                    "required": true,
+                    "var_name": "item_two"
+                },
+                {
+                    "item_name": "item2",
+                    "item_text": "This a third item",
+                    "required": true,
+                    "var_name": "item_three"
+                },
+                {
+                    "item_name": "item3",
+                    "item_text": "This a fourth item",
+                    "required": false,
+                    "var_name": "item_four",
+                    "list": {
+                        "list_items": [
+                            {
+                                "item_name": "yes",
+                                "item_text": "yes"
+                            },
+                            {
+                                "item_name": "no",
+                                "item_text": "no"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "item_name": "item4",
+                    "item_text": "This a fifth item",
+                    "required": true,
+                    "var_name": "item_fifth",
+                    "list": {
+                        "list_items": [
+                            {
+                                "list_item_name": "one",
+                                "item_text": "one"
+                            },
+                            {
+                                "list_item_name": "two",
+                                "item_text": "two"
+                            },
+                            {
+                                "list_item_name": "three",
+                                "item_text": "three"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "info": {
+                "info_items": [
+                    {
+                        "item_name": "F1",
+                        "item_text": "F1=Info"
+                    },
+                    {
+                        "item_name": "F2",
+                        "item_text": "F2=Refresh"
+                    },
+                    {
+                        "item_name": "F3",
+                        "item_text": "F3=Cancel"
+                    },
+                    {
+                        "item_name": "F4",
+                        "item_text": "F4=List"
+                    },
+                    {
+                        "item_name": "F9",
+                        "item_text": "F9=Exit"
+                    }
+                ]
+            }
+        }
+    }
+}
